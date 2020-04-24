@@ -171,3 +171,10 @@ func (c *AutheliaCtx) RemoteIP() net.IP {
 	}
 	return c.RequestCtx.RemoteIP()
 }
+
+func (c *AutheliaCtx) NetHTTPCtx() *NetHTTPCtx {
+	if c.netHTTPCtx == nil {
+		c.netHTTPCtx = &NetHTTPCtx{AutheliaCtx: c}
+	}
+	return c.netHTTPCtx
+}
