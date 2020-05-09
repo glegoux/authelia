@@ -63,6 +63,8 @@ github.com/fasthttp/session v1.1.7 h1:dTLeicJrpzb6pulR/c9X5RJWyYxI/WMwfJjcblt52I
 github.com/fasthttp/session v1.1.7/go.mod h1:rBmyCAu0bLIqKYUL2Wij7DZ4mmC6iL4RGRbmShWcIow=
 github.com/fasthttp/session v1.1.8 h1:tl20A0AGgUrQUc/8A2zWR67WR8RzcgwQ65WDmyNhrAo=
 github.com/fasthttp/session v1.1.8/go.mod h1:t3thYwSWN5VdyGjYoOqhu1fK3CZVvaQeatSyVd8Ss/U=
+github.com/fasthttp/session/v2 v2.0.2 h1:hoCr7xM+wXjkp0uwFna9G0k9ZUZNDUM5/SzgAlXqjvw=
+github.com/fasthttp/session/v2 v2.0.2/go.mod h1:u9Z1Tn1V9XLAZKHM6bjHFsinVC5/KEn2M1rllhcjFgc=
 github.com/fsnotify/fsnotify v1.4.7 h1:IXs+QLmnXW2CcXuY+8Mzv/fWEsPGWxqefPtCP5CnV9I=
 github.com/fsnotify/fsnotify v1.4.7/go.mod h1:jwhsz4b93w/PPRr/qN1Yymfu8t87LnFCMoQvtojpjFo=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
