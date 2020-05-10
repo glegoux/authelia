@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	_ "github.com/lib/pq" // Load the PostgreSQL Driver used in the connection string.
+	_ "github.com/jackc/pgx/v4/stdlib" // Load the PostgreSQL Driver used in the connection string.
 
 	"github.com/authelia/authelia/internal/configuration/schema"
 	"github.com/authelia/authelia/internal/logging"
@@ -45,7 +45,7 @@ func NewPostgreSQLProvider(configuration schema.PostgreSQLStorageConfiguration) 
 
 	connectionString := strings.Join(args, " ")
 
-	db, err := sql.Open("postgres", connectionString)
+	db, err := sql.Open("pgx", connectionString)
 	if err != nil {
 		logging.Logger().Fatalf("Unable to connect to SQL database: %v", err)
 	}
